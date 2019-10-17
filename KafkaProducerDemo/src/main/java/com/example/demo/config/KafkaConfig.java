@@ -73,5 +73,6 @@ public class KafkaConfig {
           StringDeserializer.class);
         return new DefaultKafkaConsumerFactory<>(props);
     }
+   
 
 }

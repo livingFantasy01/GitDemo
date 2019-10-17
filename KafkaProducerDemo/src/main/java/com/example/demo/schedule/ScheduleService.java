@@ -14,7 +14,7 @@ public class ScheduleService {
 	@Autowired
 	private ProducerService producerService;
 
-	@Scheduled(fixedDelay = 1000)
+	@Scheduled(fixedDelay = 10000)
 	public void scheduleFixedDelayTask() {
 		System.out.println("Scheduler service is started. !!");
 		String message = "current time is " + new Date();
